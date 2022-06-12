@@ -179,13 +179,3 @@ class _CalculadoraState extends State<Calculadora> {
   }
       
 }
-// decoration: ShapeDecoration(
-//   shape: RoundedRectangleBorder(
-//     borderRadius: BorderRadius.circular(0.0),
-//     side: BorderSide(
-//       color: Colors.white,
-//       width: 1,
-//       style: BorderStyle.solid
-//     ),
-//   ),
-// ),
