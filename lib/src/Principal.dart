@@ -19,6 +19,7 @@ class _PrincipalState extends State<Principal> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Proyecto INF-325',
       home: Scaffold(
         appBar: AppBar(
@@ -34,7 +35,6 @@ class _PrincipalState extends State<Principal> {
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Inicio'),
             BottomNavigationBarItem(icon: Icon(Icons.sports_esports), label: 'Juego'),
             BottomNavigationBarItem(icon: Icon(Icons.calculate), label: 'Calculadora'),
-            // BottomNavigationBarItem(icon: Icon(Icons.info), label: 'Acerca de'),
           ],
           currentIndex: _n,
           onTap: (index){
